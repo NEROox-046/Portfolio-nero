@@ -2,36 +2,46 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Contact</title>
+  <title>Contact – Portfolio GMP</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <h1>PORTFOLIO</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="about.html">À propos</a>
-      <a href="projects.html">Projets</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <div class="main">
-    <section>
-      <h2>Contact</h2>
-      <p>Tu peux me contacter via :</p>
-      <ul>
-        <li>Email : ton.email@exemple.com</li>
-        <li>LinkedIn : lien vers ton profil</li>
-        <li>Autre : GitHub, téléphone, etc. (si tu veux)</li>
-      </ul>
+  <nav class="navbar">
+    <div class="nav-brand">Ton Nom</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">Présentation</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
 
-      <p>Tu peux aussi intégrer un vrai formulaire plus tard si nécessaire.</p>
-    </section>
-  </div>
+  <main class="section">
+    <div class="container">
+      <h1>Contact</h1>
+      <p>N’hésite pas à me contacter pour toute question ou pour obtenir mon CV complet.</p>
 
-  <footer>
-    © 2025 – Ton Nom
+      <form class="contact-form">
+        <label>Nom</label>
+        <input type="text" placeholder="Votre nom">
+        <label>Email</label>
+        <input type="email" placeholder="votre.email@example.com">
+        <label>Message</label>
+        <textarea rows="5" placeholder="Votre message"></textarea>
+        <button type="submit">Envoyer (maquette)</button>
+      </form>
+
+      <p class="contact-info">
+        Ou directement : <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 – Ton Nom</p>
   </footer>
+
 </body>
 </html>
