@@ -2,32 +2,74 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Accueil</title>
+  <title>Portfolio – Ton Nom</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <h1>PORTFOLIO</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="about.html">À propos</a>
-      <a href="projects.html">Projets</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+
+  <!-- Bannière -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Ton Nom</h1>
+      <p>Étudiant en BUT Génie Mécanique et Productique (GMP).</p>
+      <a href="#projets" class="button">Voir mes projets</a>
+    </div>
   </header>
 
-  <div class="main">
-    <div class="hero">
-      <h2>Bienvenue sur mon portfolio</h2>
-      <p>Je suis BLA BLA étudiant en deuxième année du BUT Génie Mécanique et Productique (GMP). Ici, tu trouveras mon parcours, mes projets et mes compétences.</p>
-      <a href="projects.html" class="button">Voir mes projets</a>
+  <!-- Présentation -->
+  <section id="presentation" class="section">
+    <div class="container">
+      <h2>Présentation</h2>
+      <p>
+        Je suis étudiant en deuxième année du BUT Génie Mécanique et Productique (GMP).
+        J’aime la conception, la modélisation 3D et la réalisation de projets concrets en atelier.
+      </p>
+      <p>
+        Ce portfolio présente mon parcours, mes compétences et quelques projets réalisés en BUT GMP.
+      </p>
     </div>
-  </div>
+  </section>
 
-  <footer>
-    © 2025 – Ton Nom
+  <!-- Projets -->
+  <section id="projets" class="section section-alt">
+    <div class="container">
+      <h2>Projets</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Projet 1 – Titre</h3>
+          <p>Court texte qui décrit le projet (objectif, outils utilisés, résultat).</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Projet 2 – Titre</h3>
+          <p>Court texte qui décrit le projet (SolidWorks, CATIA, usinage, etc.).</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Projet 3 – Titre</h3>
+          <p>Un autre exemple de projet : compétition, SAE, projet tutoré, etc.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Tu peux me contacter pour plus d’informations ou pour obtenir mon CV complet.</p>
+      <ul class="contact-list">
+        <li>Email : <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a></li>
+        <li>LinkedIn : <a href="https://www.linkedin.com" target="_blank">Ton profil LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 – Ton Nom</p>
   </footer>
+
 </body>
 </html>
-
-
